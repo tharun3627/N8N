@@ -1,0 +1,22 @@
+# FastAPI Backend
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Streamlit Frontend
+streamlit==1.31.0
+
+# Vector Database
+chromadb==0.4.22
+
+# Ollama Integration
+ollama==0.1.6
+
+# Embeddings & Utilities
+sentence-transformers==2.3.1
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Additional utilities
+python-multipart==0.0.6
