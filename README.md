@@ -10,7 +10,9 @@ python database/chroma_setup.py
 Before using bot open two seperate cmd and paste these:
 
 First cmd : venv\Scripts\activate
-            python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
+
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
 
 Second cmd: venv\Scripts\activate
-            streamlit run frontend/streamlit_app.py
+
+streamlit run frontend/streamlit_app.py
